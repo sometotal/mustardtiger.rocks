@@ -10,7 +10,7 @@ a { color: #fff; text-decoration: underline; }
 a:hover { text-decoration: none; background-color: #444; }
 
 .branding {
-  background: #d9b844 url(/assets/images/mustard-tiger-400.jpg) no-repeat center;
+  background: #d9b844 url(/assets/images/mustard-tiger-title.jpg) no-repeat center;
   height: 100vh;
   text-indent: -9999px;
 }

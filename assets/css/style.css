@@ -6,42 +6,14 @@ body {
   background-color: #d9b844;
   color: #000;
 }
+
 a { color: #fff; text-decoration: underline; }
 a:hover { text-decoration: none; background-color: #444; }
 
+.container { text-align: center; }
+
 .branding {
   background: #d9b844 url(/assets/images/mustard-tiger-title.jpg) no-repeat center;
-  height: 100vh;
+  height: 227px;
   text-indent: -9999px;
 }
-/* #branding:hover { cursor: move; } */
-
-
-
-/* ICONS */
-.icons { position: fixed; top: 0; right: 0; width: 140px; z-index: 2; }
-.icons a { float: right; padding: 5px; margin: 12px 10px 5px 0; color: #ddd; }
-.icons a i { font-size: 25px; }
-
-
-.content { padding: 10px; }
-.content section { max-width:400px; margin: 0 auto; }
-
-/* Sticky Headers */
-h1 {
-  margin: 0 0 0 -2px;
-  padding: 15px 0 15px 2px;
-  background-color: #000;
-  position: relative;
-  z-index: 1;
-}
-h1.fixed {
-  position: fixed;
-  top: 0;
-  z-index: 0;
-}
-h1.fixed.absolute {
-  position: absolute;
-}
-
-

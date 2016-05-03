@@ -17,3 +17,5 @@ a:hover { text-decoration: none; background-color: #444; }
   height: 227px;
   text-indent: -9999px;
 }
+
+.big-embed { max-width: 800px; margin: 0 auto; }
